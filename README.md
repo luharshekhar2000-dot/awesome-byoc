@@ -42,10 +42,7 @@
 - [Qdrant](https://qdrant.tech/hybrid-cloud/) - Vector database with Hybrid Cloud deployment on your own infrastructure. ([Source Code](https://github.com/qdrant/qdrant))
 - [Redis](https://redis.io/docs/latest/operate/rc/subscriptions/bring-your-own-cloud/) - Managed Redis in your own AWS account with full data plane control.
 - [SingleStore](https://www.singlestore.com/blog/singlestore-byoc-on-aws/) - Distributed SQL database optimized for real-time analytics and transactions in a single platform.
-- [TiDB](https://docs.pingcap.com/tidbcloud/byoc-overview) - Distributed SQL database with BYOC deployment into your own cloud account.
 - [turbopuffer](https://turbopuffer.com/docs/architecture) - Serverless {vector, full-text} search built from first principles on object storage.
-- [Weaviate](https://weaviate.io/deployment/byoc) - Open source vector database with enterprise BYOC deployment. ([Source Code](https://github.com/weaviate/weaviate))
-- [YugabyteDB](https://docs.yugabyte.com/preview/yugabyte-cloud/cloud-basics/byoc/) - Distributed PostgreSQL-compatible database with managed BYOC deployment.
 
 ### Streaming
 
