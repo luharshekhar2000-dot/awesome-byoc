@@ -3,7 +3,7 @@ name: Qdrant
 description: Vector database with Hybrid Cloud deployment on your own infrastructure
 homepage: https://qdrant.tech
 github: https://github.com/qdrant/qdrant
-docs: https://qdrant.tech/documentation/
+docs: https://qdrant.tech/documentation/hybrid-cloud/
 category: databases
 tags:
   - vector-database
