@@ -36,6 +36,20 @@ const currentPath = Astro.url.pathname;
 
       <!-- Right side -->
       <div class="navbar-actions">
+        <!-- Maintained by Nuon -->
+        <a
+          href="https://nuon.co"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="navbar-nuon"
+        >
+          <span class="navbar-nuon-label">Maintained by</span>
+          <img src="/nuon-logo-dark.svg" alt="Nuon" class="nuon-logo-light" />
+          <img src="/nuon-logo-light.svg" alt="Nuon" class="nuon-logo-dark" />
+        </a>
+
+        <div class="navbar-divider"></div>
+
         <!-- Theme toggle -->
         <button
           id="theme-toggle"
@@ -233,6 +247,55 @@ const currentPath = Astro.url.pathname;
     display: flex;
     align-items: center;
     gap: 6px;
+  }
+
+  /* Maintained by Nuon */
+  .navbar-nuon {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--color-text-tertiary);
+    opacity: 0.6;
+    transition: opacity 0.15s ease;
+  }
+
+  .navbar-nuon:hover {
+    opacity: 1;
+  }
+
+  .navbar-nuon-label {
+    font-size: 13px;
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+  }
+
+  .navbar-nuon img {
+    height: 32px;
+    width: auto;
+  }
+
+  .nuon-logo-light { display: block; }
+  .nuon-logo-dark { display: none; }
+
+  html[data-theme="dark"] .nuon-logo-light { display: none; }
+  html[data-theme="dark"] .nuon-logo-dark {
+    display: block;
+    filter: brightness(0) invert(1);
+  }
+
+  @media (max-width: 768px) {
+    .navbar-nuon,
+    .navbar-divider {
+      display: none;
+    }
+  }
+
+  /* Divider */
+  .navbar-divider {
+    width: 1px;
+    height: 20px;
+    background: var(--color-border);
+    margin: 0 6px;
   }
 
   /* Icon button */
