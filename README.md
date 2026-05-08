@@ -58,6 +58,7 @@
 - [Groundcover](https://www.groundcover.com/blog/why-byoc-is-the-future) - Cloud-native observability using eBPF for zero-instrumentation monitoring in Kubernetes.
 - [Honeycomb](https://www.honeycomb.io/blog/honeycomb-launches-new-private-cloud-offering-address-security-compliance-cost-concerns) - Observability platform for debugging distributed systems with high-cardinality data exploration.
 - [Last9](https://last9.io) - Managed Prometheus-compatible monitoring in your own cloud. ([Docs](https://last9.io/docs/))
+- [Middleware](https://middleware.io/) - Full-stack observability platform with on-prem cloud deployment support for logs, metrics, and traces. ([Docs](https://docs.middleware.io/onprem/prerequisites))
 - [SigNoz](https://signoz.io) - Open source full-stack observability with vendor-managed BYOC deployment. ([Docs](https://signoz.io/docs))
 
 ### Data Integration
